@@ -49,8 +49,8 @@
             >;
 
             sensor-bindings =
-                <&inc_dec_kp C_VOL_UP C_VOL_DN>,
-                <&inc_dec_kp K_SCROLL_UP K_SCROLL_DOWN>;
+                <&inc_dec_kp C_VOL_DN C_VOL_UP>,
+                <&inc_dec_kp LS(PAGE_DOWN) LS(PAGE_UP)>;
         };
 
         lower_layer {
@@ -88,7 +88,7 @@
             bindings = <
 &bt BT_CLR  &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_SEL 3  &bt BT_SEL 4                    &trans     &trans    &trans    &trans     &trans  &trans
 &trans      &kp INS       &kp PSCRN     &kp K_CMENU   &trans        &trans                          &kp PG_UP  &trans    &kp UP    &trans     &trans  &trans
-&trans      &kp LALT      &kp LCTRL     &kp LSHFT     &trans        &trans                          &kp PG_DN  &kp LEFT  &kp DOWN  &kp RIGHT  &trans  &trans
+&trans      &trans        &trans        &trans        &trans        &trans                          &kp PG_DN  &kp LEFT  &kp DOWN  &kp RIGHT  &trans  &trans
 &trans      &kp K_UNDO    &kp K_CUT     &kp K_COPY    &kp K_PASTE   &trans        &trans    &trans  &trans     &trans    &trans    &trans     &trans  &trans
                           &trans        &trans        &trans        &trans        &trans    &trans  &trans     &trans    &trans    &trans
             >;
